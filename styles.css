@@ -1,0 +1,33 @@
+h2{
+    font-size: 28px;
+    font-weight: 800;
+    color: purple;
+    animation: moverh2 20s linear infinite alternate;
+}
+
+@keyframes moverh2 {
+0% {
+    transform: translateX(0px);
+}
+50%{
+    transform: translateX(700px);
+}
+100%{
+    transform:translateX(0px);
+}
+}
+
+
+p{
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+img{
+    margin-left: 630px;
+    width: 150px;
+    height: 150px;
+}
